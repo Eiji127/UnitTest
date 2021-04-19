@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import UnitTestSample
+@testable import UnitTestSample //@testableを追加することでUnitTestSampleモジュール内におけるアクセスレベルinternalがpublicと同等となる.
 
 class UnitTestSampleTests: XCTestCase {
     
